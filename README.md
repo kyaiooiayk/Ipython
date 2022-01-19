@@ -28,6 +28,8 @@
 - After installing this, type: `python -m ipykernel install --user --name=my_specific_virt_env_name`
 - Now your new env will be shown in the drop down menu under `New`.
 
+![image](https://user-images.githubusercontent.com/89139139/150124430-456ce370-12ca-4eab-8504-cefeda2e8194.png)
+
 
 
 
