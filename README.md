@@ -30,6 +30,9 @@
 
 ![image](https://user-images.githubusercontent.com/89139139/150124430-456ce370-12ca-4eab-8504-cefeda2e8194.png)
 
+- To list of the env that jupiter list use this: `jupyter kernelspec list`
+- To remove one env use" `jupyter kernelspec uninstall name_of_env_not_needed`
+
 
 
 
