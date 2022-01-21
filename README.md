@@ -33,6 +33,11 @@
 - To list of the env available to jupiter use: `jupyter kernelspec list`
 - To remove one env use: `jupyter kernelspec uninstall name_of_env_not_needed`
 
+## How to install Jupyter extentions
+- Run this command to install notebook extensions: `pip install jupyter_contrib_nbextensions && jupyter contrib nbextension install`
+- 
+[Ref](https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231)
+
 
 
 
