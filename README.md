@@ -34,7 +34,7 @@
 - To remove one env use: `jupyter kernelspec uninstall name_of_env_not_needed`
 
 ## How to install Jupyter extentions
-- Run this command to install notebook extensions: `pip install jupyter_contrib_nbextensions && jupyter contrib nbextension install`. If you get an error like this `Permission denied: '/usr/local/share'` try this instead as suggested [here](https://github.com/Calysto/matlab_kernel/issues/68): `jupyter_contrib_nbextensions && jupyter contrib nbextension install --user`
+- Run this command to install notebook extensions: `pip install jupyter_contrib_nbextensions && jupyter contrib nbextension install`. If you get an error like this `Permission denied: '/usr/local/share'` try this instead as suggested [here](https://github.com/Calysto/matlab_kernel/issues/68): `pip install jupyter_contrib_nbextensions && jupyter contrib nbextension install --user`
 - Start up a Jupyter Notebook and navigate to the new Nbextensions tab:
 ![image](https://user-images.githubusercontent.com/89139139/150533233-ddc25295-9f2b-43b6-aea0-305cb0a497cd.png)
 - If you don’t see a tab, open a notebook and click Edit > nbextensions config.
@@ -44,10 +44,9 @@
 - **Tabel of contents**: Once you start getting dozens of cells in one Jupyter Notebook, it can be difficult to keep track of them all. The Table of Contents solves that problem by adding a linked TOC that can be positioned anywhere on the page.
 - **Autopep8**: use kernel-specific code to reformat/prettify the contents of code cells. Apart from activating the `Autopep8` extention under `Nbextentions` make sure you run this as well: `pip install autopep8`
 - **Variable Inspector** extension collects all defined variables and display them in a floating window. The extension is also draggable, resizable, collapsable.
-- **ExecuteTime** shows when and how long cells ran
-- **Hide Code input** hides the work show the results
-- **Code Folding**
-
+- **ExecuteTime** shows when and how long cells ran.
+- **Hide Code input** hides the work show the results.
+- **Code Folding** clicking on the triangle in the gutter (left margin of codecell).
 
 
 
