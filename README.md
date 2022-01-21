@@ -1,6 +1,6 @@
 # Jupyter-Notebooks
 
-## What is Jypter?
+## What is Jupyter?
 - Jupyter is a web application that allows you to display and execute Python interactively. The interface is writteni n CSS, HTML and JavaScript. This run in a web browser on the client machine.
 
 ## Installation
@@ -20,7 +20,7 @@
 - Update a to a specific module version: `scikit-learn==0.24.1 –upgrade`
 - How to revert to an older version: first `pip uninstall scikit-learn` then `pip install scikit-learn==0.18.2`
 
-# How to run a specific environment within your jupyter notebook
+## How to activate a specific env within your jupyter notebook
 - All command lines were taken form this [Ref#1](https://medium.com/@nrk25693/how-to-add-your-conda-environment-to-your-jupyter-notebook-in-just-4-steps-abeab8b8d084) and [Ref#2](https://janakiev.com/blog/jupyter-virtual-envs/)
 - Let us assume we have a number of different virtual environments in our machine and we’d like to remind ourself what these are. Type on the console: `conda env list` and hopefully more than one virt env will be shown. Now let us assume I'd like to use one of them in my Jupyter notebook.
 - Activate your virtual environment: `conda activate my_specific_virt_env_name`
