@@ -40,7 +40,7 @@
 - If you don’t see a tab, open a notebook and click Edit > nbextensions config.
 [Ref](https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231)
 
-## Usueful notebook extentions
+## Useful notebook extentions
 - **Tabel of contents**: Once you start getting dozens of cells in one Jupyter Notebook, it can be difficult to keep track of them all. The Table of Contents solves that problem by adding a linked TOC that can be positioned anywhere on the page.
 - **Autopep8**: use kernel-specific code to reformat/prettify the contents of code cells. Apart from activating the `Autopep8` extention under `Nbextentions` make sure you run this as well: `pip install autopep8`
 - **Variable Inspector** extension collects all defined variables and display them in a floating window. The extension is also draggable, resizable, collapsable.
