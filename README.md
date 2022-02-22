@@ -48,6 +48,10 @@
 - **Hide Code input** hides the work show the results.
 - **Code Folding** clicking on the triangle in the gutter (left margin of codecell).
 
+## How to publish your notebook
+- Let's assume you have loaded your notebook file (.ipynb) on GitHub
+- Navigate to `https://nbviewer.org/` past your notebook's URL on this will return a fully rendered notebook.
+
 ## List of Jupyter Notebook Tips, Tricks, and Shortcuts
 - [28 Jupyter Notebook Tips, Tricks, and Shortcuts](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
 
