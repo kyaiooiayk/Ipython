@@ -51,6 +51,7 @@
 ## How to publish your notebook
 - Let's assume you have loaded your notebook file (.ipynb) on GitHub
 - Navigate to `https://nbviewer.org/` past your notebook's URL on this will return a fully rendered notebook.
+- If you prefer to do it via command line [here](https://reproducible-science-curriculum.github.io/publication-RR-Jupyter/02-exporting_the_notebook/index.html) are the instructions.
 
 ## List of Jupyter Notebook Tips, Tricks, and Shortcuts
 - [28 Jupyter Notebook Tips, Tricks, and Shortcuts](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
