@@ -5,6 +5,19 @@
 - Jupyter is a web application that allows you to display and execute Python interactively. The interface is writteni n CSS, HTML and JavaScript. This run in a web browser on the client machine.
 ***
 
+## Why Jupyter?
+- Seeing intermediate (debugging) results for each step of the analysis 
+- Running only some sections (or cells) of the code 
+- Storing intermediate results in the JSON format and having the ability to do version control on them 
+- Presenting your work (this will be a combination of text, code, and images), sharing it via the [Jupyter Notebook Viewer service](http://nbviewer. jupyter.org/), and easily exporting it to HTML, PDF, or even slideshows 
+***
+
+## When not to use Jupyter?
+- Jupyter notebooks are great for quick exploration of the data you are working with, but do not use them as your main development tool.
+- Notebooks do not encourage a reproducible workflow, and you should see this talk for a good overview of why they don’t.
+- Use a proper IDE like PyCharm or VS code (or vim if you’re into that) when developing code. Convince your employer to buy you professional editions of this software (this is usually peanuts for the company, and can be a massive productivity boost). I develop most of my code locally, but use PyCharm’s remote execution to execute any code on the cloud or an internal VM.
+***
+
 ## Installation
 - It can be installed via pip as: `pip install jupyter`
 - To see which jupter is being used use: `which jupyter`
@@ -72,4 +85,8 @@
 
 ## List of Jupyter Notebook Tips, Tricks, and Shortcuts
 - [28 Jupyter Notebook Tips, Tricks, and Shortcuts](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
+***
 
+## References
+- [A gallery of interesting Jupyter Notebooks](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks)
+- [When not use jupyter](https://thuijskens.github.io/2018/11/13/useful-code-is-production-code/)
