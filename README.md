@@ -85,6 +85,7 @@
 
 ## List of Jupyter Notebook Tips, Tricks, and Shortcuts
 - [28 Jupyter Notebook Tips, Tricks, and Shortcuts](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
+- [8 surprising ways how to use Jupyter Notebook](https://mljar.com/blog/how-to-use-jupyter-notebook/)
 ***
 
 ## References
