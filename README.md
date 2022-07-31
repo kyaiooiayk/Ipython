@@ -75,6 +75,10 @@
 - If you prefer to do it via command line [here](https://reproducible-science-curriculum.github.io/publication-RR-Jupyter/02-exporting_the_notebook/index.html) are the instructions.
 ***
 
+## Modularise your Notebook into Scripts
+- [From notebook to module](https://towardsdatascience.com/modularise-your-notebook-into-scripts-5d5ccaf3f4f3)
+***
+
 ## How to convert your notebook to pdf
 - [Jupyter Notebooks(ipynb) Viewer and Converter](https://htmtopdf.herokuapp.com/ipynbviewer/)
 ***
