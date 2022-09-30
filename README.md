@@ -99,6 +99,7 @@
 - [28 Jupyter Notebook Tips, Tricks, and Shortcuts](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
 - [8 surprising ways how to use Jupyter Notebook](https://mljar.com/blog/how-to-use-jupyter-notebook/)
 - [How to create a dashboard in Python with Jupyter Notebook?](https://mljar.com/blog/dashboard-python-jupyter-notebook/)
+- [5 ways to schedule Jupyter Notebook](https://mljar.com/blog/schedule-jupyter-notebook/)
 ***
 
 ## References
