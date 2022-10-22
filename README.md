@@ -44,8 +44,12 @@
 - `pip3 install package_name`
 - `conda install package_name`
 - Last resort (installing form source): `git clone package_name`, `cd package_name` and `python setup.py install`
-
 ***
+
+## Checking installed package version
+- `pip list | grep <name of the package>`
+***
+
 ## How to activate a specific env within your jupyter notebook
 - All command lines were taken form this [Ref#1](https://medium.com/@nrk25693/how-to-add-your-conda-environment-to-your-jupyter-notebook-in-just-4-steps-abeab8b8d084) and [Ref#2](https://janakiev.com/blog/jupyter-virtual-envs/)
 - Let us assume we have a number of different virtual environments in our machine and we’d like to remind ourself what these are. Type on the console: `conda env list` and hopefully more than one virt env will be shown. Now let us assume I'd like to use one of them in my Jupyter notebook.
