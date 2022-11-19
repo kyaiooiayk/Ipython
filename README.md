@@ -106,6 +106,25 @@
 - [5 ways to schedule Jupyter Notebook](https://mljar.com/blog/schedule-jupyter-notebook/)
 ***
 
+## Pip vs. Conda
+- Pip installs Python packages whereas conda installs packages which may contain software written in any language. 
+- Conda` can install Python packages as well as the Python interpreter directly whereas pip installs only python packages.
+- Conda has the ability to create isolated environments that can contain different versions of Python and/or the packages installed in them. Pip has no built in support for environments but rather depends on other tools like virtualenv or venv to create isolated environments. 
+
+***
+
+## Mixing Pip and Conda
+- When some packages are only available to install via pip. 
+- Over *1,500* packages are available in the Anaconda repository, including the most popular data science, machine learning, and AI frameworks. These, along with thousands of additional packages available on Anaconda cloud from channeling including conda-forge and bioconda, can be installed using conda. 
+- Despite this large collection of packages, it is still small compared to the over *150,000* packages available on PyPI.
+***
+
+## Miniconda
+- Miniconda is a free minimal installer for conda. 
+- It is a small, bootstrap version of Anaconda that includes only conda, Python, the packages they depend on, and a small number of other useful packages, including pip, zlib and a few others. 
+***
+
 ## References
 - [A gallery of interesting Jupyter Notebooks](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks)
 - [When not use jupyter](https://thuijskens.github.io/2018/11/13/useful-code-is-production-code/)
+- [CS197 Harvard: AI Research Experiences](https://docs.google.com/document/d/1z5ELxpTw_U01jUB6-D6ILqHRPg6SSiLE7VFQryH3LPU/edit#)
