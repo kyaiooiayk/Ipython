@@ -36,6 +36,7 @@
 ## How to manage python packages
 - Update a to a specific module version: `scikit-learn==0.24.1 –upgrade`
 - How to revert to an older version: first `pip uninstall scikit-learn` then `pip install scikit-learn==0.18.2`
+- Uograde a package: `pip install --upgrade <package_name>`
 ***
 
 ## Issue installing python packages
