@@ -47,6 +47,18 @@
 - Last resort (installing form source): `git clone package_name`, `cd package_name` and `python setup.py install`
 ***
 
+## Telling pip what to download
+-  You can use `pip download` rather than `pip install` so that you can inspect the resulting wheel, but the flags will work with either of them.
+```
+$ pushd "$(mktemp -d)"
+$ python -m pip download --only-binary :all: --dest . --no-cache <package_name>
+```
+- `pushd "$(mktemp -d)"` change to a temporary directory to store the download files.
+- `--only-binary :all`: tells pip to constrain itself to using wheels and ignore source distributions. Without this option, pip will only prefer wheels but will fall back to source distributions in some scenarios.
+- `--dest .` tells pip to download to the current directory.
+- `--no-cache` tells pip not to look in its local download cache.
+***
+
 ## Checking installed package version
 - `pip list | grep <name of the package>`
 ***
