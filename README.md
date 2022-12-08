@@ -57,6 +57,20 @@ $ python -m pip download --only-binary :all: --dest . --no-cache <package_name>
 - `--only-binary :all`: tells pip to constrain itself to using wheels and ignore source distributions. Without this option, pip will only prefer wheels but will fall back to source distributions in some scenarios.
 - `--dest .` tells pip to download to the current directory.
 - `--no-cache` tells pip not to look in its local download cache.
+
+```
+$ # Install `yarl` and use only wheels for yarl and all dependencies
+$ python -m pip install --only-binary :all: yarl
+
+$ # Install `yarl` and use wheels only for the `multidict` dependency
+$ python -m pip install --only-binary multidict yarl
+
+$ # Install `yarl` and don't use wheels for yarl or any dependencies
+$ python -m pip install --no-binary :all: yarl
+
+$ # Install `yarl` and don't use wheels for the `multidict` dependency
+$ python -m pip install --no-binary multidict yarl
+```
 ***
 
 ## Checking installed package version
