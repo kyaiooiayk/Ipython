@@ -27,7 +27,7 @@
 ## How to create a virtual environment with conda
 - If you have just created your new virtual environment: `pip install jupyter`
 - See which conda you are using (meaning it shows the path of the executable being called): `which conda`
-- Create a virtual environment using conda specific command: `conda create –-name my_env_name python=3.7` (check for the last stable Python realease [here](https://www.python.org/downloads/macos/))
+- Create a virtual environment using conda specific command: `conda env create –-name my_env_name python=3.7` (check for the last stable Python realease [here](https://www.python.org/downloads/macos/))
 - Activate the virtual environment: `conda activate my_env_name` 
 - How to visualise all the env available: `conda env list`
 - Install any package you like via these two options: `conda install package_name` or `pip package_name`
