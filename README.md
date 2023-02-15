@@ -75,6 +75,12 @@
 - [From notebook to module](https://towardsdatascience.com/modularise-your-notebook-into-scripts-5d5ccaf3f4f3)
 ***
 
+## How to convert your notebook to a python script
+- Via jupyter notebbok GUI: Please click File->Download as->Python
+- Via command line: `jupyter nbconvert --to python notebook.ipynb` and the file will be saved as `notebook.py` 
+- Via `jupytext`. Install it with `pip install jupytext` or `conda install jupytext -c conda-forge`. After installation, there will be a new menu available under `File` in the jupyter GUI. Alternatively you can still use the command line. Convert to Python script with light format: `jupytext --to py notebook.ipynb`. Convert to Python script with percent format: `jupytext --to py:percent notebook.ipynb`.
+***
+
 ## How to convert your notebook to pdf
 - [Jupyter Notebooks(ipynb) Viewer and Converter](https://htmtopdf.herokuapp.com/ipynbviewer/)
 ***
@@ -94,3 +100,5 @@
 - [A gallery of interesting Jupyter Notebooks](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks)
 - [When not use jupyter](https://thuijskens.github.io/2018/11/13/useful-code-is-production-code/)
 - [CS197 Harvard: AI Research Experiences](https://docs.google.com/document/d/1z5ELxpTw_U01jUB6-D6ILqHRPg6SSiLE7VFQryH3LPU/edit#)
+- [Convert Jupyter Notebook to Python script in 3 ways](https://mljar.com/blog/convert-jupyter-notebook-python/)
+***
