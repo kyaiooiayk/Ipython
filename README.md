@@ -1,4 +1,4 @@
-# Jupyter-Notebooks
+# Jupyter Notebooks and Jupyter Lab
 ***
 
 ## What is Jupyter?
@@ -94,6 +94,12 @@
 - [8 surprising ways how to use Jupyter Notebook](https://mljar.com/blog/how-to-use-jupyter-notebook/)
 - [How to create a dashboard in Python with Jupyter Notebook?](https://mljar.com/blog/dashboard-python-jupyter-notebook/)
 - [5 ways to schedule Jupyter Notebook](https://mljar.com/blog/schedule-jupyter-notebook/)
+***
+
+## Jupyter Lab
+- Both Jupyter Notebook or Jupyter Lab can open the same Jupyter notebook files. Jupyter Lab just looks slightly more modern and has some extra functions. You can think of it as using Microsoft Word 2020 instead of Microsoft Word 2006.
+- Install it with: `conda install -c conda-forge jupyterlab` or `pip install jupyterlab`
+- Lanching is done with: `jupyter lab`
 ***
 
 ## References
