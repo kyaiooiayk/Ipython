@@ -9,7 +9,7 @@
 - Seeing intermediate (debugging) results for each step of the analysis 
 - Running only some sections (or cells) of the code 
 - Storing intermediate results in the JSON format and having the ability to do version control on them 
-- Presenting your work (this will be a combination of text, code, and images), sharing it via the [Jupyter Notebook Viewer service](http://nbviewer. jupyter.org/), and easily exporting it to HTML, PDF, or even slideshows 
+- Presenting your work (this will be a combination of text, code, and images), sharing it via the [Jupyter Notebook Viewer service](http://nbviewer.jupyter.org/), and easily exporting it to HTML, PDF, or even slideshows 
 ***
 
 ## When not to use Jupyter?
